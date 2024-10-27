@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+
+     <style>
+          @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic);
+
+          body{
+               background-color: #000;
+               margin: 0;
+          }
+
+          h1{
+               font-family: 'Open Sans';
+               text-align: center;
+               line-height: 100vh;
+               margin: 0;
+               color: #222;
+               font-size: 7em;
+               font-weight: 600;
+               letter-spacing: 5px;
+               text-transform: uppercase;
+               animation: blinkin 1s linear infinite alternate running;     
+               
+          }
+
+          @keyframes blinkin {
+               0% {
+                    color: #222;
+                    text-shadow: 0 0 0
+               }
+               15% {
+                    color: #FFF;
+                    text-shadow:   0 0 10px #FFF,
+                                   0 0 20px #FFF,
+                                   0 0 40px #ff0000,
+                                   0 0 80px #FFF,
+                                   0 0 120PX #FFF;
+               } 
+               20% {
+                    color: #222;
+                    text-shadow: 0 0 0
+               } 
+
+               65% {
+                    color: #222;
+                    text-shadow: 0 0 0
+               } 
+
+               80% {
+                    color: #FFF;
+                    text-shadow:   0 0 10px #FFF,
+                                   0 0 20px #FFF,
+                                   0 0 40px #ff0000,
+                                   0 0 80px #FFF,
+                                   0 0 120PX #FFF;
+               } 
+
+               90% {
+                    color: #222;
+                    text-shadow: 0 0 0
+               } 
+                    
+          } 
+
+
+
+     </style>
+
+
+</head>
+<body>
+     <h1>Open 24/7</h1>
+</body>
+</html>
